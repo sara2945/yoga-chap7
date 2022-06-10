@@ -19,9 +19,25 @@ margin-top: 50px;
 min-height: 200px;
 }
 header a { text-decoration: none; }
-header a:link { color: #40407A; }
-header a:visited { color: #40407A; }
-header a:hover { color: #FFFFFF; }
+header a:link { color: #FFF; }
+header a:visited { color: #FFF; }
+header a:hover { color: #EDF5F5; }
+.home, .content {
+height: 20vh;
+padding-left: 10%;
+padding-top: 2em;
+}  
+nav {
+background-color: #FFF;
+position: fixed;
+left: 0;
+top: 0;
+margin: 0;
+padding: 0.5em 0 1em 1em;
+text-align: right;
+width: 100%;
+z-index: 9999;
+}  
 h1 { 
 padding-top: 50px; 
 padding-left: 2em; 
