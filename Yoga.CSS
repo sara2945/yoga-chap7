@@ -38,25 +38,10 @@ text-align: right;
 width: 100%;
 z-index: 9999;
 }  
-h1 { 
-padding-top: 50px; 
-padding-left: 2em; 
-}
-nav { 
-float: left;
-font-weight: bold; 
-padding: 1em;
-width: 160px;
-}
 nav a { 
-border: 3px outset #CCCCCC;
 display: block;
-margin-bottom: 1em; 
-padding: 1em;
-nav a {
-display: block;
-text-decoration: none; 
-}
+text-decoration: none;
+}  
 nav a:link { color: #3F2860; }
 nav a:visited { color: #497777; }
 nav a:hover { color: #A26100; }
